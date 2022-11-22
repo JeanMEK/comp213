@@ -1,0 +1,100 @@
+body {
+    color: #fff;
+    font-family: 'Open Sans';
+    background-color: #fff;
+  }
+  
+  .banner {
+      padding: 6em 0 8em 0;
+      text-align: center;
+    width: 100%;
+    background-image: url(https://pbs.twimg.com/media/EBUaGIyWsAYa2SD?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+  }
+  
+  .border {
+      width: 60%;
+      margin: 0 auto;
+      height: 47px;
+      border: 2px solid rgb(255, 204, 49);
+      border-bottom: 0;
+  }
+
+  .banner p {
+      color: #FFFFFF;
+      font-size: 1em;
+      font-weight: bold;
+      margin: 1em 0 0 0;
+      line-height: 2em;
+      letter-spacing: 2px;
+    padding: 0 0 2em 0;
+  }
+  
+  .border-bottom {
+      border-top: 0;
+      border-bottom: 2px solid rgb(255, 204, 49);
+  }
+
+  .logo {
+    float: center;
+    display: block;
+    left: 50px;
+    border-radius: 50px;
+  }
+
+  .body {
+  background: rgb(4,0,79) !important;
+  background: linear-gradient(90deg, rgba(4,0,79,1) 0%, rgba(0,5,66,1) 73%, rgba(2,0,208,1) 100%) !important;
+  }
+ 
+  .title1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .title2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .web, .web:visited{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF
+  }
+
+  .instructions{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    height: 47px;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom: 0;
+
+  }
+
+  .textpart1{
+    margin-left: auto;
+  }
+
+.questions{
+  font-size: medium;
+}
+
+.button {
+  background-color: #020065;
+  text-align: center;
+  border: 3px solid whitesmoke;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 3px 1px;
+  cursor: grab;
+  border-radius: 10px;
+  width: 300px;  
+}
